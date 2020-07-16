@@ -10,14 +10,6 @@ Clova AI Research, NAVER Corp.
 ### Overview
 PyTorch implementation for CRAFT text detector that effectively detect text area by exploring each character region and affinity between characters. The bounding box of texts are obtained by simply finding minimum bounding rectangles on binary map after thresholding character region and affinity scores. 
 
-<img width="1000" alt="teaser" src="./figures/craft_example.gif">
-
-## Updates
-**13 Jun, 2019**: Initial update
-**20 Jul, 2019**: Added post-processing for polygon result
-**28 Sep, 2019**: Added the trained model on IC15 and the link refiner
-
-
 ## Getting started
 ### Install dependencies
 #### Requirements
