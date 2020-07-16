@@ -2,7 +2,9 @@
 Copyright (c) 2019-present NAVER Corp.
 MIT License
 """
-
+'''
+Edited by Zubin.
+'''
 # -*- coding: utf-8 -*-
 import sys
 import os
@@ -163,8 +165,8 @@ if __name__ == '__main__':
 
         # save score text
         filename, file_ext = os.path.splitext(os.path.basename(image_path))
-        mask_file = result_folder + "/res_" + filename + '_mask.jpg'
-        cv2.imwrite(mask_file, score_text)
+    	#mask_file = result_folder + "/res_" + filename + '_mask.jpg' #heatmap file not required- zubin
+     	#cv2.imwrite(mask_file, score_text) #- zubin
 
         file_utils.saveResult(image_path, image[:,:,::-1], polys, dirname=result_folder)
 
