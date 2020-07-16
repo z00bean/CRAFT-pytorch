@@ -1,14 +1,12 @@
 ## CRAFT: Character-Region Awareness For Text detection
 Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)
 
-**[Youngmin Baek](mailto:youngmin.baek@navercorp.com), Bado Lee, Dongyoon Han, Sangdoo Yun, Hwalsuk Lee.**
- 
 Clova AI Research, NAVER Corp.
 
 ### Sample Results
 
 ### Overview
-PyTorch implementation for CRAFT text detector that effectively detect text area by exploring each character region and affinity between characters. The bounding box of texts are obtained by simply finding minimum bounding rectangles on binary map after thresholding character region and affinity scores. 
+Modified PyTorch implementation for CRAFT text detector that effectively detect text area by exploring each character region and affinity between characters and redacts the region. 
 
 ## Getting started
 ### Install dependencies
@@ -54,11 +52,6 @@ The result image and socre maps will be saved to `./result` by default.
 * `--test_folder`: folder path to input images
 * `--refine`: use link refiner for sentense-level dataset
 * `--refiner_model`: pretrained refiner model
-
-
-## Links
-- WebDemo : https://demo.ocr.clova.ai/
-- Repo of recognition : https://github.com/clovaai/deep-text-recognition-benchmark
 
 ## Citation
 ```
