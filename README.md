@@ -44,6 +44,7 @@ The result image and socre maps will be saved to `./result` by default.
 * `--refine`: use link refiner for sentense-level dataset
 * `--refiner_model`: pretrained refiner model
 
+
 ## Citation
 ```
 @inproceedings{baek2019character,
