@@ -49,7 +49,7 @@ def saveResult(img_file, img, boxes, dirname='./result/', verticals=None, texts=
         #res_file = dirname + "res_" + filename + '.txt' #- zubin
 	#save coordinates of boxes in one file- zubin
         res_file = dirname + "result_box_coordinates.txt"
-        res_img_file = dirname + filename + '.jpg' #edited output file names- zubin
+        res_img_file = dirname + filename + file_ext #'.jpg' #edited output file names- zubin
 
         if not os.path.isdir(dirname):
             os.mkdir(dirname)
