@@ -15,6 +15,8 @@ def list_files(in_path):
     gt_files = []
     for (dirpath, dirnames, filenames) in os.walk(in_path):
         for file in filenames:
+            if os.path.getsize(os.path.join(dirpath, file)) == 0: #-zubin- check if file size 0
+                continue
             filename, ext = os.path.splitext(file)
             ext = str.lower(ext)
             if ext == '.jpg' or ext == '.jpeg' or ext == '.gif' or ext == '.png' or ext == '.pgm':
