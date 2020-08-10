@@ -26,6 +26,7 @@ python test.py --trained_model=[weightfile] --test_folder=[folder path to test i
 ```
 
 The result image and socre maps will be saved to `./result` by default.
+(This version doesn't check for corrupt/empty files.)
 
 ### Arguments
 * `--trained_model`: pretrained model
