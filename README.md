@@ -53,7 +53,6 @@ The result image and socre maps will be saved to `./result` by default.
   year={2019}
 }
 ```
-
 ## License
 ```
 Copyright (c) 2019-present NAVER Corp.
