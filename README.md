@@ -56,7 +56,7 @@ The result image and socre maps will be saved to `./result` by default.
 
 To do:
 Check files before processing, 
-Add provision to readl files given in text list
+Add provision to readl files given in list (text file)
 ## License
 ```
 Copyright (c) 2019-present NAVER Corp.
